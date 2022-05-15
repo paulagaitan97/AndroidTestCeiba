@@ -7,10 +7,21 @@
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="$PROJECT_DIR$/../../../../HerramientasDevOps/Gradle/gradle-6.6.1" />
+        <option name="gradleJvm" value="JDK" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/core-ui" />
+            <option value="$PROJECT_DIR$/post-feature" />
+            <option value="$PROJECT_DIR$/post-feature/post-data" />
+            <option value="$PROJECT_DIR$/post-feature/post-domain" />
+            <option value="$PROJECT_DIR$/post-feature/post-presentation" />
+            <option value="$PROJECT_DIR$/user-feature" />
+            <option value="$PROJECT_DIR$/user-feature/user-data" />
+            <option value="$PROJECT_DIR$/user-feature/user-domain" />
+            <option value="$PROJECT_DIR$/user-feature/user-presentation" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

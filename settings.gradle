@@ -14,3 +14,13 @@ dependencyResolutionManagement {
 }
 rootProject.name = "AndroidTestCeiba"
 include ':app'
+include ':core'
+include ':core-ui'
+include ':user-feature'
+include ':post-feature'
+include ':post-feature:post-data'
+include ':post-feature:post-domain'
+include ':post-feature:post-presentation'
+include ':user-feature:user-data'
+include ':user-feature:user-domain'
+include ':user-feature:user-presentation'
