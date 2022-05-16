@@ -37,6 +37,7 @@ dependencies {
     implementation DaggerHilt.hiltAndroid
 
     testImplementation Testing.junit4
+    testImplementation Testing.robolectric
     testImplementation Testing.junitAndroidExt
     testImplementation Testing.truth
     testImplementation Testing.coroutines
@@ -44,8 +45,10 @@ dependencies {
     testImplementation Testing.composeUiTest
     testImplementation Testing.mockk
     testImplementation Testing.mockWebServer
+    testImplementation Testing.mockitoKotlin
 
     androidTestImplementation Testing.junit4
+    androidTestImplementation Testing.robolectric
     androidTestImplementation Testing.junitAndroidExt
     androidTestImplementation Testing.truth
     androidTestImplementation Testing.coroutines

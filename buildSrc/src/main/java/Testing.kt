@@ -5,6 +5,9 @@ object Testing {
     private const val junitAndroidExtVersion = "1.1.3"
     const val junitAndroidExt = "androidx.test.ext:junit:$junitAndroidExtVersion"
 
+    private const val robolectricVersion = "4.5.1"
+    const val robolectric = "org.robolectric:robolectric:$robolectricVersion"
+
     private const val coroutinesTestVersion = "1.5.1"
     const val coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutinesTestVersion"
 
@@ -27,4 +30,8 @@ object Testing {
 
     private const val testRunnerVersion = "1.4.0"
     const val testRunner = "androidx.test:runner:$testRunnerVersion"
+
+    private const val mockitokotlin2 = "2.1.0"
+    const val mockitoKotlin = "com.nhaarman.mockitokotlin2:mockito-kotlin:$mockitokotlin2"
+
 }
