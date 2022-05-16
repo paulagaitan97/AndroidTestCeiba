@@ -2,7 +2,8 @@ package com.gaitan.dev.androidtestceiba.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple200 = Color(0xFFBB86FC)
-val Purple500 = Color(0xFF6200EE)
-val Purple700 = Color(0xFF3700B3)
-val Teal200 = Color(0xFF03DAC5)
+val lightGreen = Color(android.graphics.Color.parseColor("#2d6133"))
+val darkGreen = Color(android.graphics.Color.parseColor("#264636"))
+val MediumGray = Color(0xFF404040)
+val DarkGray = Color(0xFF202020)
+val TextWhite = Color(0xFFEEEEEE)

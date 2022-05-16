@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidTestCeiba</string>
+    <string name="text_title_app_bar">Prueba de Ingreso</string>
 </resources>

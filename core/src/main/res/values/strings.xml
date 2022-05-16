@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_description_icon_phone">phone</string>
+    <string name="text_description_icon_email">email</string>
+    <string name="text_error">Mensaje</string>
+    <string name="text_error_network">Error, procesando la información.</string>
+    <string name="text_error_empty">List is empty</string>
+    <string name="text_sarch_hint">Buscar usuario</string>
+    <string name="text_title_field_search">Nombre Usuario</string>
+    <string name="text_title_app_bar">Prueba de Ingreso</string>
+    <string name="text_empty_post">Sin Resultados</string>
+    <string name="text_button_post">VER PUBLICACIONES</string>
+    <string name="text_title_post">Lista de publicaciones</string>
+
+</resources>
