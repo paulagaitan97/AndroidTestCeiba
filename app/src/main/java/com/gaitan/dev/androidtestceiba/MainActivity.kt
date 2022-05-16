@@ -1,6 +1,7 @@
 package com.gaitan.dev.androidtestceiba
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
@@ -17,6 +18,7 @@ import androidx.navigation.compose.rememberNavController
 import com.gaitan.dev.androidtestceiba.ui.theme.AndroidTestCeibaTheme
 import com.gaitan.dev.core.navigation.Screen
 import com.gaitan.dev.core_ui.utils.TextBasic
+import com.gaitan.dev.post_presentation.screen.PostScreen
 import com.gaitan.dev.user_presentation.screen.ListUserScreen
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -75,6 +77,12 @@ class MainActivity : ComponentActivity() {
                                 scaffoldState = scaffoldState
                             )
                         }
+                        composable(
+                            route = Screen.AllPostByUserScreen.route + "/{userId}"
+                        ) {
+                            PostScreen(navController = navController)
+                        }
+
 
                     }
 
