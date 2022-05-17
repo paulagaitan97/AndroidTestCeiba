@@ -11,6 +11,7 @@ import androidx.compose.material.Text
 import androidx.compose.material.TextField
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import com.gaitan.dev.core.R
@@ -49,6 +50,7 @@ fun SearchFieldView(
                 .background(MaterialTheme.colors.surface)
                 .fillMaxWidth()
                 .padding(spacing.spaceMedium)
+                .testTag("search_text")
         )
     }
 }

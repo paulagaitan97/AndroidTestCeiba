@@ -9,6 +9,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -79,7 +80,9 @@ fun UserDetailView(
 
                 ) {
                 TextButton(
-                    modifier = Modifier.align(Alignment.End),
+                    modifier = Modifier
+                        .align(Alignment.End)
+                        .testTag("TagButtonPost"),
                     onClick = { onActionClick(userView.id.toString()) },
                     colors = ButtonDefaults.textButtonColors(backgroundColor = Color.Transparent)
 
